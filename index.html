@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> EisenDo </title>
+        
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+    </head>
+    
+    <body>
+        <h1> What do you have to do? </h1>
+        
+        <div id="input">
+            <input id="textbox" type="text"/>
+            <div id="selections">
+                <div id="checkboxes">
+                    <input id="important" type="checkbox"> Is Important <br>
+                    <input id="urgent" type="checkbox"> Is Urgent <br>
+                </div>
+                <input id="submit" type="submit" value="+"/>
+            </div>
+        </div>
+        
+        <div id="both">
+            <div class="title"> <p> Both important and urgent </p> </div>
+        </div>
+        
+        <div id="impNotUrg">
+            <div class="title"> <p> Important, but not urgent </p> </div>
+        </div>
+        
+        <div id="urgNotImp">
+            <div class="title"> <p> Urgent, but not important </p> </div>
+        </div>
+        
+        <div id="neither">
+            <div class="title"> <p> Neither important nor urgent </p> </div>
+        </div>
+    </body>
+    
+    <footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </footer>
+</html>
